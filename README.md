@@ -7,3 +7,4 @@
 |Lavender Flash Tutorial|[Here](Lavender%20Flash%20Tutorial.md)|
 |Recovery Changelog|[Here](recovery/Orangefox%20Recovery.md)|
 |Recovery Image|[Here](recovery/OrangeFox-Unofficial-Lavender-4_19.img)|
+|Device Changelog|[Here](changelogs/device_changelogs.md)|
