@@ -10,8 +10,9 @@
 ```
 1. Wipe system, data, vendor, cache, dalvik, metadata;
 2. Format data;
-3. Install 4.19 recovery from here;
-4. Enter manage partitions on ofox configs, change Data & Cache partitions file system to F2FS;
+3. Install 4.19 recovery (ofox or twrp);
+4./4.1. Enter manage partitions on ofox configs, change Data & Cache partitions file system to F2FS;
+4./4.2. Enter advanced wipe, change Data & Cache partitions file system to F2FS;
 5. Install rom;
 6. Reboot to system;
 ```

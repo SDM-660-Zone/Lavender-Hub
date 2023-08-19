@@ -5,8 +5,8 @@
 |Subject|Link|
 |----|-----|
 |Lavender Flash Tutorial|[Here](Lavender%20Flash%20Tutorial.md)|
-|Recovery Changelog|[Here](recovery/Orangefox%20Recovery.md)|
-|Recovery Image|[Here](recovery/OrangeFox-Unofficial-Lavender-4_19.img)|
+|Recovery Changelog|[Here](recovery/recovery_changelog.md)|
+|Recovery Image|[Here](recovery)|
 |Device Changelog|[Here](changelogs/device_changelogs.md)|
 |Credit's|[Here](Credit's.md)|
 |Know Issues|[Here](Bugs.md)|
