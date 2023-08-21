@@ -3,7 +3,14 @@
 
 ## Redmi Note 7 - Lavender
 
-### Device Tree
+### Device Tree - 20/08/2023
+
+- Fixed USB-C Dac
+- Fixed adsprpcd logspam
+- Fixed some wakelocks
+- Suppress imsdatadaemon denials 
+
+### Device Tree - 18/08/2023
 
 - Bring up changes for kernel 4.19
 - Adress denial's needed on 4.19
