@@ -3,6 +3,13 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 23/08/2023
+
+- Switched to Pixel Powerhal from android-13.0.0_r3
+- Adapted Pixel Powerhal for sdm660 usage
+- Updated our powerhint
+- Enabled MGLRU configs
+
 ### Device Tree - 20/08/2023
 
 - Fixed USB-C Dac
@@ -49,7 +56,22 @@
 - Include/flash DTBO image
 - Much and much more...
 
-### Kernel
+
+### Kernel - 23/08/2023
+
+- Uclamp task is back
+- multi-gen LRU: log when min_ttl is unsatisfied
+- multi-gen LRU: export min_ttl unsatisfied counter to sysfs
+- multi-gen LRU: set min_ttl to 5000ms by default
+- configs: Drop ARMv8.1/v8.2 architectural features
+- configs: disable PROCESS_RECLAIM
+- configs: Support UAS of usb storage
+- configs: Disable media usb bus support
+- configs: Disable THERMAL_STATISTICS
+- configs: Disable support for ARM64 SVE
+- kgsl: Zap performance counters across context switches
+
+### Kernel - 20/08/2023
 
 - We are now using SouthWest Kernel as base from [here](https://github.com/pix106/android_kernel_xiaomi_southwest-4.19), credits go to [Pix106](https://github.com/pix106)
 - Enabled Multi-Gen LRU
