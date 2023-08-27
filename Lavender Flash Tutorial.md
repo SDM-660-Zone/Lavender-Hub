@@ -10,9 +10,8 @@
 ```
 1. Wipe system, data, vendor, cache, dalvik, metadata;
 2. Format data;
-3. Install 4.19 recovery (ofox or twrp provided on this repo);
-4.Orangefox. Enter manage partitions on ofox configs, change Data & Cache partitions file system to F2FS;
-4.TWRP. Enter advanced wipe, change Data & Cache partitions file system to F2FS;
+3. Install 4.19 recovery (provided on this repo);
+4. Enter manage partitions on ofox configs, change Data & Cache partitions file system to F2FS;
 5. Install rom;
 5.1. Install your gapps package or other stuff if you are gonna need it later, remember recovery will not be decrypted, otherwise use a SDCard or USB OTG;
 6. Reboot to system;

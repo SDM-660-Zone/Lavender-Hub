@@ -9,5 +9,4 @@
 *  Adjust recovery.fstab;
 *  Disable haptics;
 *  Enable a flag to include resetprop and libresetprop;
-*  Enable casefolding support on userdata;
 *  [DNM] Disable encryption support;
