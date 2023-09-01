@@ -3,6 +3,14 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 30/08/2023
+
+- Set swappiness from kernel side
+- Remove zram cold page writeback file
+- Write 0 for zs_handle and zspage when configuring zram
+- Enable ZRAM deduplication feature
+- Decreased zram to a fixed-size of 2gb
+
 ### Device Tree - 23/08/2023
 
 - Switched to Pixel Powerhal from android-13.0.0_r3
@@ -56,6 +64,12 @@
 - Include/flash DTBO image
 - Much and much more...
 
+
+### Kernel - 30/08/2023
+
+- ksu: Update ksu version
+- Fixed a typo on "Support capture for tas2557 amp"
+- vmscan: Reduce swapping aggressiveness to 10
 
 ### Kernel - 23/08/2023
 
