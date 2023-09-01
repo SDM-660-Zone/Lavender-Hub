@@ -19,7 +19,11 @@
 
 ### Dirty flash 
 ```
-1. Flash rom;
-2. Wipe dalvik and cache;
-3. Reboot to system;
+1. Download rom update;
+2. Reboot to recovery;
+3. Enter on menu, connect your phone with pc and choose ADB & Sideload;
+4. Execute adb sideload <rom package filename>.zip;
+4.1. Or if you have a SD card, you can put the rom package into the SD card and flash it on recovery directly instead of using adb sideload;
+5. Wipe cache and dalvik;
+6. Reboot to system and voila!
 ```
