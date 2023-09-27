@@ -3,6 +3,22 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 26/09/2023
+
+- Properly label /sys/kernel/qvr_external_sensor/fd
+- Fix adm buffering size
+- Update CarrierConfig from LA.UM.10.2.1.r1-04000-sdm660.0
+- Import QTI datastatusnotification from FP3
+- Remove duplicate SIP+VoIP permission
+- Decrease battery charging thresholds
+- Set userspace lmkd properties
+- Satisfy EPPE enforcement
+- Force pre-5.10 devices to treat 170M as sRGB in SF
+- Extend buffer size to 256kb for offload playback
+- Add DPM props
+- Compact cached app heaps in the background
+- Remove activity_recognition libs
+
 ### Device Tree - 30/08/2023
 
 - Set swappiness from kernel side
@@ -64,6 +80,15 @@
 - Include/flash DTBO image
 - Much and much more...
 
+
+### Kernel - 26/09/2023
+
+- vmscan: Go back to default swapiness level´s
+- ion: Limit concurrency of workqueues freeing buffers asynchronously
+- defconfig: Enable powersave and userspace cpufreq governor
+- defcongif: Disable slmk and enable userspace lmk
+- Revert "block: remove legacy IO schedulers"
+- defconfig: Enable CFQ Group Scheduling support
 
 ### Kernel - 30/08/2023
 
