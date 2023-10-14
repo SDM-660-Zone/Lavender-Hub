@@ -3,6 +3,13 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 09/10/2023
+
+- Switch back to schedtune boost
+- Drop conflicting wakeup nodes
+- Bring back zram in QCOM's init post boot script
+- Drop userspace lmk
+
 ### Device Tree - 26/09/2023
 
 - Properly label /sys/kernel/qvr_external_sensor/fd
@@ -80,6 +87,10 @@
 - Include/flash DTBO image
 - Much and much more...
 
+
+### Kernel - 09/10/2023
+
+- Switched to S0NiX-v3.0-LA.UM.11.2.1.r1-04200 as base from [here](https://github.com/ImSpiDy/kernel_xiaomi_lavender-4.19), credits go to [ImSpiDy](https://github.com/ImSpiDy)
 
 ### Kernel - 26/09/2023
 
