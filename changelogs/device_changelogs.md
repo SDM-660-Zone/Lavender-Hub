@@ -3,6 +3,18 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 18/10/2023
+
+- Switch to Wifi service AIDL;
+- Fix gps, display, media and audio hals build as needed by clang on Android 14;
+
+### Device Tree - 13/10/2023
+
+- Follow qssi default behaviour and disable auto_latch_unsignaled property to keep latch-unsignaled working as intend;
+- Force triple frame buffers;
+- Improve SF Phase Offsets;
+- Disable HD Logo
+
 ### Device Tree - 09/10/2023
 
 - Switch back to schedtune boost
