@@ -4,9 +4,8 @@
 *  Set swiotlb to default size;
 *  Fix typo in console kernel parameter;
 *  Drop remains of FDE encryption;
-*  Switch to SouthWest v2.18.3 *4.19* kernel;
-*  Switch to two-stage init mounting;
-*  Adjust recovery.fstab;
-*  Disable haptics;
-*  Enable a flag to include resetprop and libresetprop;
-*  [DNM] Disable encryption support;
+*  Deprecate SAR;
+*  Set CPU temp path;
+*  Disabed haptics;
+*  Enabled DT2W;
+*  Switch to source kernel build instanted of prebuilt one;

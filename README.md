@@ -9,5 +9,3 @@
 |Recovery Image|[Here](recovery)|
 |Device Changelog|[Here](changelogs/device_changelogs.md)|
 |Credit's|[Here](Credit's.md)|
-|Know Issues|[Here](Bugs.md)|
-|What's coming?|[Here](News.md)|
