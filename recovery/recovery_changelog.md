@@ -9,3 +9,4 @@
 *  Disabed haptics;
 *  Enabled DT2W;
 *  Switch to source kernel build instanted of prebuilt one;
+*  Setup Retrofit Partitions;

@@ -6,8 +6,8 @@
 
 ```
 1. Install provided recovery (provided on this repo);
-2. Wipe system, data, vendor, cache, dalvik;
-3. Format data;
+2. Format data;
+3. Wipe cach and dalvik;
 4. Flash the rom file;
 5. Reboot to system;
 ```

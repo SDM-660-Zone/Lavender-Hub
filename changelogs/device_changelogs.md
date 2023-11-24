@@ -3,6 +3,14 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 24/11/2023
+
+- Switch to two-stage init mounting;
+- Releasetools: Include/flash DTBO image;
+- Use logdump as metadata partition;
+- Retrofit dynamic partitions;
+- Reserve some space for partitions
+
 ### Device Tree - 17/11/2023
 
 - Import libnotifyaudiohal from lavender;
@@ -47,6 +55,9 @@
 - Replace isolated_app with isolated_app_all;
 - Fix gps, display, media and audio hals build as needed by clang on Android 14;
 
+### Kernel - 24/11/2023
+
+- Adapt for retrofit dynamic partitions;
 
 ### Kernel - 17/11/2023
 
