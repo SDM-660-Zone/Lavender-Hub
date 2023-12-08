@@ -3,13 +3,18 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 01/12/2023
+
+- Disable backpressure;
+- Don't cleanup resources due to rendering a prior frame;
+
 ### Device Tree - 24/11/2023
 
 - Switch to two-stage init mounting;
 - Releasetools: Include/flash DTBO image;
 - Use logdump as metadata partition;
 - Retrofit dynamic partitions;
-- Reserve some space for partitions
+- Reserve some space for partitions;
 
 ### Device Tree - 17/11/2023
 
