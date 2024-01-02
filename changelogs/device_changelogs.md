@@ -3,6 +3,14 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 01/01/2024
+
+- Disable frame rate override feature;
+- Sort out display props;
+- parts: Target current sdk;
+- parts: Get rid of HelpDialogFragment class;
+- parts: Add an exported flag in manifest;
+
 ### Device Tree - 01/12/2023
 
 - Disable backpressure;
@@ -59,6 +67,10 @@
 - Raise VINTF target level to 4;
 - Replace isolated_app with isolated_app_all;
 - Fix gps, display, media and audio hals build as needed by clang on Android 14;
+
+### Kernel - 01/01/2024
+
+- Merge some changes/backports from msm8998;
 
 ### Kernel - 24/11/2023
 
