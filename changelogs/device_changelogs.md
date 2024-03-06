@@ -3,6 +3,24 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 06/03/2024
+
+- parts: Add Kcal support and refactor to our implementation
+- overlay: Disable Now Playing Components;
+- rootdir: Configure zram on fstab and switch to a fixed common size;
+- device: Build Lineage Health Hal and adress it denials;
+- overlay: Allow seamless Doze state transitions;
+- device: Fixed sensor build and drop 32 bits version;
+- device: Add AOSP audio policy engine configs to fixup some related denials;
+- device: Switch CPU variant to Cortex-A73;
+- audio: Set valid and supported channel mask for earpiece;
+- audio: Offload 24 bits playback supports mp3/aac format;
+- powerhint: Fix some denial's and reset some power hints only after boot it's complete;
+- device: Optimized reserved space size on partitions;
+- device: Build OMX HIDL HAL after deprecate 32-bit apps;
+- device: Messed again with LMKD optimization;
+- ...
+
 ### Device Tree - 01/01/2024
 
 - Disable frame rate override feature;
