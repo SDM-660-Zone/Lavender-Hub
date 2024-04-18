@@ -3,6 +3,27 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 16/04/2024
+
+- gps: Don't include cutils/threads.h;
+- device: Add BUILD_BROKEN_INCORRECT_PARTITION_IMAGES;
+- device: Switch back to WiFi AIDL;
+- parts: Migrate to CompoundButton.OnCheckedChangeListener;
+- parts: Convert to SwitchPreferenceCompat;
+- parts: Bring back Collapsingtoolbar again;
+- power-libperfmgr: Sync with xiaomi aidl power;
+- qcom-caf: audio: Resolve symbol duplication issues in the audio.primary.sdm660 module;
+- device: Update Time Services, ANT+, Bluetooth, DRM (SEE, TUI, Widevine), Alarm blobs from Fairphone3;
+- device: Update CNE, DPM, IMS, QMI, RIL blobs from LA.QSSI.14.0.r1-12000-qssi.0;
+- device: Update CNE, DPM, IMS, QMI, RIL blobs and GPS blobs from Zebra TC57;
+- libqti-perfd-client: Clean up;
+- device: Improve zram init process;
+- device: Enable ZRAM deduplication feature;
+- device: Store TaskSnapshot in 16 bit pixel format to save memory;
+- overlay: Improve pinner configuration;
+- rootdir: Fix the battery drain due to statsd;
+- device: Move some vendor props to system;
+
 ### Device Tree - 06/03/2024
 
 - parts: Add Kcal support and refactor to our implementation
