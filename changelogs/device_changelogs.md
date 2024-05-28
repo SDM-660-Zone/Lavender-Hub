@@ -3,6 +3,36 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 28/05/2024
+
+- device: Adressed a lot of sepolicy denial's;
+- bluetooth: Build android.hardware.bluetooth.audio-impl;
+- device: Move to QTI health AIDL service;
+- device: Migrate to AIDL ClearKey DRM HAL;
+- parts: Add an exported flag in manifest;
+- parts: Get rid of HelpDialogFragment class;
+- parts: Target current sdk;
+- parts: Add Kcal support;
+- parts: Refactor KCAL Implementation;
+- rootdir: Configure zram on fstab;
+- device: Build Lineage Health HAL;
+- device: Enabled level 1(core) Multi-Gen LRU;
+- device: Update CNE, DPM, IMS, QMI, RIL blobs from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys;
+- device: libqti-perfd-client: Clean up;
+- device: Improve zram init process;
+- device: Build Codec2 Packages on vendor;
+- configs: Import keylayout and reconfigure it (hopefully screenshots issue may be fixed now);
+- properties: Prefer 'cache' backing storage;
+- device: Import thermal configs from lavender dt and adapt to 4.19;
+- device: Import thermal from Hon660;
+- device: Switch to xiaomi common libperfmgr;
+- fstab: Add formattable flag for userdata ext4 entry;
+- fstab: Prefer ext4 for /cache and /data (f2fs proved to be even slower than ext4 in RW operations);
+- fstab: Disable encryption for now (users will annoy me if it isn't);
+- device: Retune powerhint;
+- device: Sign builds with private releasekeys (Google it's going harder on integrity restrictions);
+- A lot more things that I would prefer not to write here (I'm watching!);
+
 ### Device Tree - 18/10/2023
 
 - Switch to Wifi service AIDL;
@@ -99,6 +129,10 @@
 - Include/flash DTBO image
 - Much and much more...
 
+
+### Kernel - 28/05/2024
+
+- Updated to S0NiX-R1 as base from [here](https://github.com/ImSpiDy/sonix_kernel_lavender), credits go to [ImSpiDy](https://github.com/ImSpiDy)
 
 ### Kernel - 09/10/2023
 
