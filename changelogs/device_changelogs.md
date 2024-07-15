@@ -3,6 +3,37 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 15/07/2024
+
+- device: Use common libqti-perfd-client and power-libperfmgr;
+- device: qcom-caf: media: mm-video-v4l2: Disable OMX_BUFFERFLAG_DECODEONLY support;
+- device: Disable the usage of ConfigStore;
+- device: Set manifest target-level to 5;
+- device: Inherit from QTI and common Xiaomi FCMs;
+- device: Include lineage FCM; 
+- device: Build missing libraries for 14 QPR3;
+- device: Reverted "Set block_binder_thread_on_incoming_calls in product.prop";
+- device: Move to new RFS install_symlink targets;
+- device: Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES;
+- device: Declare IMS and EGL libs as symlinks during extraction;
+- device: Convert WiFi firmware symlinks to install_symlink targets;
+- device: Don't chown DT2W node;
+- device: rootdir: Tune LMK;
+- device: Enable the backward-compatible memory reduction option;
+- device: Import device_framework_matrix from lineage;
+- device: media: Remove software omx codec references;
+- device: media: Use AOSP default Codec2/OMX ranks;
+- device: media: Set higher priority to c2 than OMX;
+- device: media: Remove software OMX blobs;
+- device: media: Remove media_codecs_google_c2*;
+- device: rro_overlays: Drop explicit 'sdk_version' declaration;
+- device: Remove vendor RenderScript implementation;
+- device: rootdir: Tune our cpuset setup;
+- device: Rename property to disable MTE in system_server;
+- device: powerhint: Tune powerhint (again!);
+- device: powerhint: Add DT2W;
+- device: Tweak surfaceflinger work durations;
+
 ### Device Tree - 16/04/2024
 
 - gps: Don't include cutils/threads.h;
