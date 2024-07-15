@@ -7,7 +7,7 @@
 ### Clean flash
 
 ```
-1. Install last Orangefox Official Recovery, R11.1_6;
+1. Install last Orangefox Official Recovery, R11.1_6_1_kernel_419;
 2. Wipe cache and dalvik;
 3. Format data;
 4. Reboot to recovery;
