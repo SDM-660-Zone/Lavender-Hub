@@ -3,6 +3,14 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 25/08/2024
+
+- device: Build libutils.vendor;
+- device: Implemented a common section for all xiaomi parts;
+- device: Update dolby atmos from Motorola Moto G52;
+- device: Tune cpuset;
+- device: audio: Update policy config;
+
 ### Device Tree - 15/07/2024
 
 - device: Use common libqti-perfd-client and power-libperfmgr;
@@ -162,6 +170,12 @@
 - Include/flash DTBO image
 - Much and much more...
 
+
+### Kernel - 25/08/2024
+
+- Updated to Senya-r1.1.103  as base from [here](https://github.com/user-why-red/android_kernel_xiaomi_sdm660_419), credits go to [Santhosh](https://github.com/user-why-red)
+- Line up/reverted some changes to match our priorities;
+- Added back my personal modifications over it;
 
 ### Kernel - 15/07/2024
 
