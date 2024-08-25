@@ -3,6 +3,18 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 25/08/2024
+
+- device: Build libutils.vendor;
+- device: Implemented a common section for all xiaomi parts;
+- device: Update dolby atmos from Motorola Moto G52;
+- device: Tune cpuset;
+- device: audio: Update policy config;
+- device: fstab: Add back f2fs optional support (We do not support inline f2fs encryption on our 4.4 baseline);
+- device: fstab: Bring back 'quota' option;
+- device: fstab: Properly set avb;
+- device: dimens: Define start/end of status bar padding;
+
 ### Device Tree - 15/07/2024
 
 - device: Use common libqti-perfd-client and power-libperfmgr;
