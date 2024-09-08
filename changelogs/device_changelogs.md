@@ -3,6 +3,12 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 08/09/2024
+
+- device: Drop schedtune and switch to uclamp tasks (since we are using PELT);
+- device: Properly tune uclamp values;
+- device: Since we use uclamp now, uprev cgroup/task profiles version;
+
 ### Device Tree - 25/08/2024
 
 - device: Build libutils.vendor;
