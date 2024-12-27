@@ -3,6 +3,15 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 27/12/2024
+
+- device: Tune powerhint frequency/durations;
+- device: thermal: Cleanup configs;
+- device: Enable low memory configurations;
+- device: Explicitly set as an non-AB target;
+- device: Adjust dalvik heap overrides;
+- device: ...
+
 ### Device Tree - 25/08/2024
 
 - device: Build libutils.vendor;
@@ -149,6 +158,12 @@
 - Raise VINTF target level to 4;
 - Replace isolated_app with isolated_app_all;
 - Fix gps, display, media and audio hals build as needed by clang on Android 14;
+
+### Kernel - 27/12/2024
+
+- More bpf backport's;
+- Switch to KernelSU-Next;
+- Misc improvements under scheduler;
 
 ### Kernel - 01/01/2024
 
