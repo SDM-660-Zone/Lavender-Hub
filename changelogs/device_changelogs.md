@@ -3,6 +3,19 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 27/12/2024
+
+- device: Welcome back schedtune!
+- device: Tune powerhint frequency/durations;
+- device: thermal: Cleanup configs;
+- device: Enable low memory configurations;
+- device: Update Graphics, GPU and PostProcessing blobs from DDV_sprout;
+- device: Drop camera libshims;
+- device: Switch to oss camera hal;
+- device: Explicitly set as an non-AB target;
+- device: Adjust dalvik heap overrides;
+- device: ...
+
 ### Device Tree - 08/09/2024
 
 - device: Drop schedtune and switch to uclamp tasks (since we are using PELT);
@@ -176,6 +189,11 @@
 - Include/flash DTBO image
 - Much and much more...
 
+### Kernel - 27/12/2024
+
+- Updated to Radiethselunaris-r1.1.105-eol as base from [here](https://github.com/user-why-red/android_kernel_xiaomi_sdm660_419), credits go to [Santhosh](https://github.com/user-why-red)
+- Line up/reverted some changes to match our priorities;
+- Added back my personal modifications over it;
 
 ### Kernel - 25/08/2024
 
