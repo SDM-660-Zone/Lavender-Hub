@@ -1,12 +1,14 @@
 # Lavender Flash Tutorial
+* 4.4 baseline;
+* Recovery internal data its decrypted by default until further notice.
+* Default data/cache are set to f2fs; Ext4 its still available;
 
 ## Getting Started
 
 ### Clean flash
 
 ```
-1. Install last Orangefox Official Recovery, R11.1_6;
-1.1 Info: If you are coming from a 4.19 rom, make sure that u change your data/cache partition type to Ext4;
+1. Install last Orangefox Official Recovery;
 2. Format data;
 3. Wipe cache and dalvik;
 4. Flash the rom file;
