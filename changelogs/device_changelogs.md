@@ -3,6 +3,16 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 12/07/2025
+
+- device: More and more;
+- device: Dropped IPictureAdjustment from livedisplay (Buggy since we switch to aosp colors managment);
+- device: Improved display performance;
+- device: Fixed LMOFreeform related problems;
+- device: Properly enable charging control configuration;
+- device: Drop legacy ANT remnants;
+- device: Cgroups_v2 and task_profiles improvements;
+
 ### Device Tree - 12/06/2025
 
 - device: More and more;
