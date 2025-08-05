@@ -3,6 +3,12 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 05/08/2025
+
+- device: Switch to sm8150 display hals (Thanks to [wHoEMi](https://github.com/wHo-EM-i));
+- device: Partially update display blobs from Nabu;
+- device: Add support for FIXED_PERFORMANCE power hints;
+
 ### Device Tree - 12/07/2025
 
 - device: More and more;
@@ -60,6 +66,10 @@
 - device: Optimize dex2oat configuration for performance;
 - device: ...
 
+### Kernel - 05/08/2025
+
+- Backported SUSFS 1.5.9 (Thanks to [sidex15](https://github.com/sidex15)); 
+- Updated KernelSU-Next to 1.0.9;
 
 ### Kernel - 12/06/2025
 
