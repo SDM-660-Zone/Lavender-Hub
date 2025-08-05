@@ -3,6 +3,10 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 05/08/2025
+
+- device: Add support for FIXED_PERFORMANCE power hints;
+
 ### Device Tree - 12/07/2025
 
 - device: More and more;
@@ -57,6 +61,12 @@
 - device: Set debug.sf.layer_caching_active_layer_timeout_ms to 1000;
 - device: Optimize dex2oat configuration for performance;
 - device: ...
+
+### Kernel - 05/08/205
+
+- More bpf backport's;
+- Updated KernelSU-Next to 1.0.9;
+- Qcom power adjustments;
 
 ### Kernel - 27/12/2024
 
