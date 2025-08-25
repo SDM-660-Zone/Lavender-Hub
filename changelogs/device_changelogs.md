@@ -3,6 +3,13 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 25/08/2025
+
+- device: More and more;
+- device: Decrease GPU default min freq;
+- device: Improved task_profiles performance;
+- device: Improved phase offset sf durations;
+
 ### Device Tree - 05/08/2025
 
 - device: Add support for FIXED_PERFORMANCE power hints;
@@ -61,6 +68,10 @@
 - device: Set debug.sf.layer_caching_active_layer_timeout_ms to 1000;
 - device: Optimize dex2oat configuration for performance;
 - device: ...
+
+### Kernel - 25/08/205
+
+- Merged BPF backports from K5.10;
 
 ### Kernel - 05/08/205
 
