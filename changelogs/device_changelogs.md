@@ -3,6 +3,15 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 25/08/2025
+
+- device: More and more;
+- device: Tune cpuset configs;
+- device: Tune powerhint performace;
+- device: Decrease GPU default min freq;
+- device: Improved task_profiles performance;
+- device: Improved phase offset sf durations;
+
 ### Device Tree - 05/08/2025
 
 - device: Switch to sm8150 display hals (Thanks to [wHoEMi](https://github.com/wHo-EM-i));
@@ -65,6 +74,12 @@
 - device: Set debug.sf.layer_caching_active_layer_timeout_ms to 1000;
 - device: Optimize dex2oat configuration for performance;
 - device: ...
+
+### Kernel - 25/08/2025
+
+- Merged EishinNull[Wake]-R1.1.106 release (4.19-st7 cip);
+- Added more touchscreen drivers;
+- Switched to qpnp wled driver for lcd-backlight;
 
 ### Kernel - 05/08/2025
 
