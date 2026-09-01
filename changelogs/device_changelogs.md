@@ -3,6 +3,47 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 01/09/2026
+
+- device: Tuned HWUI scaling for improved rendering performance;
+- device: Updated Skia tracing properties for newer Android versions;
+- device: Added SELinux permissions for system apps to read KGSL GPU information;
+- device: Completed Lineage Health integration for battery charging control;
+- device: Added torch strength control;
+- device: Switched performance tuning from schedtune to UClamp;
+- device: Updated the - kernel BPF version override to 5.10.239;
+- device: Restored graphics acceleration by reverting ro.config.avoid_gfx_accel;
+- device: Switched to the AIDL Camera HAL;
+- device: Moved SPU NVM directory creation to an earlier boot stage;
+- device: Fixed seccomp policy for the IMS RTP service;
+- device: Replaced deprecated writepid cgroup migration with task profiles;
+- device: Adjusted USB 2.0 UVC bandwidth for more reliable webcam output;
+- device: Fixed DeviceAsWebcam color handling on Qualcomm hardware;
+- device: Enabled USB UVC webcam support;
+- device: Added MHI diagnostic pipe permissions;
+- device: Updated proprietary blobs from Zebra/helios/helios:14/14-32-12.00-UG-U03-STD-HEL-04/21:user/release-keys and LA.QSSI.16.0.r1-06700-qssi.0;
+- device: Tuned SurfaceFlinger timers, frame scheduling and HWUI memory behavior for smoother UI performance;
+- device: Restored SurfaceFlinger client composition caching to reduce UI jank;
+- device: Enabled ADPF CPU hints for improved UI responsiveness and frame pacing;
+- device: Increased GPU minimum frequency during expensive rendering workloads;
+- device: Tuned LMKD for improved memory management, multitasking and responsiveness;
+- device: Tuned power hints and scheduler behavior;
+- device: Improved expensive rendering handling by preventing interaction hints from reducing performance during blur and other heavy rendering workloads;
+- device: Updated task profiles with newer Android process-group features;
+- device: Restored normal statsd behavior;
+- device: Updated Soong configuration variables to use boolean types where appropriate;
+- device: Removed duplicated SELinux wakeup node definitions;
+- device: Set the default pinned memory amount for the home application;
+- device: Disabled high-performance transition mode;
+- device: Reduced Bluetooth log spam;
+- device: Fixed SELinux denials for the Qualcomm USB HAL;
+- device: Fixed Qualcomm Wi-Fi Display media target variant property handling;
+- device: Properly switched USB audio to the AOSP USB Audio HAL v2;
+- device: Removed deprecated Bluetooth A2DP input audio configurations;
+- device: Added the IPSEC_TUNNEL_MIGRATION feature using XFRM migration support;
+- device: Enabled UFFD garbage collection support;
+
+
 ### Device Tree - 25/08/2025
 
 - device: More and more;
@@ -75,6 +116,35 @@
 - device: Optimize dex2oat configuration for performance;
 - device: ...
 
+### Kernel - 01/09/2026
+
+- kernel: Updated to SouthWest-NG as base from [here](https://github.com/pix106/android_kernel_xiaomi_sdm660_southwest-ng), credits go to [pix106](https://github.com/pix106)
+- kernel: ...;
+- kernel: Fixed NoMount compatibility with GNU89 - kernel build rules;
+- kernel: Added NoMount v2.0.0 with hookless and lockless fast-path lookup support;
+- kernel: Added SUSFS v2.2.0 support;
+- kernel: Imported KernelSU v3.3.0 + 97;
+- kernel: Improved Novatek touchscreen recovery from I2C errors to prevent system freezes and watchdog reboots;
+- kernel: Improved alarmtimer handling to prevent userspace wakeup alarms from blocking suspend;
+- kernel: Fixed ICNSS power management to prevent suspend failures and related log spam;
+- kernel: Improved UART suspend handling to restore reliable deep sleep;
+- kernel: Cleaned up FPC1020 fingerprint driver logging;
+- kernel: Fixed fingerprint sensor wakeup and power management during deep sleep;
+- kernel: Improved SDIO power management for better deep sleep;
+- kernel: Improved filesystem performance by enabling NOATIME and NODIRATIME by default;
+- kernel: Updated process tampering blacklist;
+- kernel: Added Power HAL and IOP processes to the tampering blacklist;
+- kernel: Added centralized protection against userspace processes tampering with - kernel-controlled performance nodes;
+- kernel: Prevented Google Camera from consuming CPU and battery while running in the background;
+- kernel: Tuned memory pressure handling for improved multitasking on 3/4 GB RAM devices;
+- kernel: Removed unused camera focus and snapshot GPIO keys;
+- kernel: Improved wakeup interrupt handling by replacing IRQF_NO_SUSPEND with proper IRQ wake support;
+- kernel: Enabled the CPU-to-memory bandwidth governor for PowerHAL performance hints;
+- kernel: Enabled IFB and IPv6 GRE networking support;
+- kernel: Switched the - kernel timer frequency to 300 Hz;
+- kernel: Enabled BBR, FQ_CODEL and FQ networking support;
+- kernel: Added the missing SLIMbus audio flag required for proper Lavender DTBO boot;
+
 ### Kernel - 25/08/2025
 
 - Merged EishinNull[Wake]-R1.1.106 release (4.19-st7 cip);
@@ -84,11 +154,11 @@
 ### Kernel - 05/08/2025
 
 - Backported SUSFS 1.5.9 (Thanks to [sidex15](https://github.com/sidex15)); 
-- Updated KernelSU-Next to 1.0.9;
+- Updated - kernelSU-Next to 1.0.9;
 
 ### Kernel - 12/06/2025
 
 - Updated to Radiethselunaris-r1.1.105-eol as base from [here](https://github.com/user-why-red/android_kernel_xiaomi_sdm660_419), credits go to [Santhosh](https://github.com/user-why-red)
 - Line up/reverted some changes to match our priorities;
 - Added back my personal modifications over it;
-- Implemented KernelSU-Next 1.0.6 + SUSFS 1.5.5;
+- Implemented - kernelSU-Next 1.0.6 + SUSFS 1.5.5;
