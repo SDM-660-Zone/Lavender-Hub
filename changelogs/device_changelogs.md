@@ -3,6 +3,19 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 18/09/2026
+
+- device: Enable HWUI render-ahead;
+- device: libperfmgr: Fix sysfs labels and permissions;
+- device: sepolicy: Allow libperfmgr write to gpu/devfreq nodes;
+- device: Properly arrange media codec configuration;
+- device: Set ro.config.small_battery to true;
+- device: Disable machine learning on product partition;
+- device: Tune LMKD for improved memory management;
+- device: Switch to lineage fork of displayservice HIDL;
+- device: Drop HIDL Bluetooth Audio 2.1 implementation;
+- device: Update blobs from LA.QSSI.17.0.r1-06700-qssi.0;
+
 ### Device Tree - 01/09/2026
 
 - device: Tuned HWUI scaling for improved rendering performance;
