@@ -3,6 +3,11 @@
 
 ## Redmi Note 7 - Lavender
 
+### Device Tree - 27/09/2026
+
+- device: bluetooth: Fix deep sleep when Bluetooth is enabled;
+- device: audio: Properly use AOSP USB v2 audio HAL;
+
 ### Device Tree - 18/09/2026
 
 - device: Enable HWUI render-ahead;
